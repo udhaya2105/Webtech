@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:read-only{
+            background-color: yellow;
+        }
+        input:disabled{
+            background-color: red;
+        }
+        input[value="java"]{
+            background-color: aqua;
+        }
+        input[maxlength]{
+            background-color: aquamarine;
+        }
+        input:required{
+            background-color: rgb(190, 5, 5);
+        }
+        input:focus{
+            background-color: green;
+        }
+        input::file-selector-button{
+            background-color: blue;
+        }
+
+        
+        </style>
+</head>
+<body>
+    <form action="">
+        <label for="">Enter name :</label>
+        <input type="text"  placeholder="enter name" autofocus><br><br<>
+        <label for="">Enter mail :</label>
+        <input type="email"  placeholder="enter email" disabled><br><br<>
+        <label for="" >Enter number :</label>
+        <input type="tel"  placeholder="enter number" maxlength="10"><br><br<>
+        <label for="">Enter age :</label>
+        <input type="number" value="21" readonly><br><br<>
+        <label for="">Enter address :</label>
+        <textarea placeholder="enter address"></textarea><br><br>
+        <label for="">Enter alternate number :</label>
+        <input type="tel" placeholder="enter alternate number" required ><br><br<>
+        <label for="">Enter course :</label>
+        <input type="text" value="java"><br><br>
+        <label>Upload file:</label>
+        <input type="file"><br><br>
+        
+        <button>Submit</button>
+    </form>
+</body>
+</html>

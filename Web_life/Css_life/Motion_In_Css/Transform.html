@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mainBox{
+            width: 600px;
+            height: 500px;
+            border: 2px solid black;
+        }
+        
+        .childBox{
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            background-color: red;
+            transition-property:all;
+            transition-duration: 4s;
+            color: white;
+            
+            /* transform: translateX(400px);
+            transform:translateY(300px) ; 
+            */
+            /* transform:translate(300px , 200px) ; */
+            /* transform: rotateX(60deg);   */
+            /* transform: rotateY(60deg); */
+            /* transform: rotate(30deg); */
+            /* transform: scaleX(3); */
+            /* transform: scaleY(4); */
+            /* transform: scale(-1); */
+            /* transform: skewX(40deg); */
+            /* transform:skewY(60deg) ; */
+            /* transform: skew(40deg); */
+           
+            /* transform-origin: top left; */
+            transition-property: all;
+            transition-duration: 7s;
+            /* transition-timing-function: ease; */
+            /* transition-timing-function: ease-in; */
+            /* transition-timing-function: ease-in-out; */
+            /* transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+            transition-delay:5s ;
+        }
+         .childBox:hover{
+            /* transform: border radius(3px); */
+            transform: translate(500px , 400px) rotate(180deg);
+            background-color: black;
+            border-radius: 50%;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="mainBox">
+        <div class="childBox">box-1</div>
+    </div>
+</body>
+</html>

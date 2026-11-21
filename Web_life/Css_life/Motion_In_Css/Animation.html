@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        .{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mainBox{
+            width: 600px;
+            height: 500px;
+            border: 2px solid black;
+        }
+        
+        .childBox{
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            background-color: rgb(113, 9, 9);
+            transition-property:all;
+            animation-duration: 2s;
+            color: white;
+            animation-name: spiderman;
+            /* animation-timing-function: ease; */
+            /* animation-timing-function: ease-in; */
+            /* animation-timing-function: ease-in-out; */
+            /* animation-timing-function: ease-out; */
+            /* animation-delay: 4s; */
+            animation-duration: 5s;
+            animation-delay: 2s ;
+            /* animation-iteration-count: 3; */
+            /* animation-iteration-count: infinite; */
+            /* animation-direction: normal; */
+            /* animation-direction: reverse; */
+            /* animation-direction: alternate; */
+            /* animation-direction: alternate-reverse; */
+            /* animation-fill-mode:forwards; */
+              animation-fill-mode: backwards;
+            /* animation-fill-mode: both;  */
+        
+        }
+        @keyframes spiderman {
+            /* from{
+                transform: translate(0px,0px);
+            }
+            to{
+                transform: translate(500px,0px);
+            } */
+             from{
+                transform: translateX(0px);
+             }
+             to{
+                transform: translateX(500px);
+                background-color: rgb(16, 2, 2);
+              }
+             /* 50%{
+                transform:translate(500px,400px) ;
+                background-color: burlywood;
+             }
+             75%{
+                transform: translate(0px,400px);
+                background-color: chocolate;
+             }  */
+
+        }
+        </style>
+</head>
+<body>
+     <div class="mainBox">
+        <div class="childBox">box-1</div>
+    </div>
+
+</body>
+</html>

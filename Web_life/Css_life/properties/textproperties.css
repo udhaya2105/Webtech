@@ -1,0 +1,20 @@
+p{
+    color: blue;
+    text-align: justify;
+    text-transform: none;
+    text-indent: 100%;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: purple;
+    text-decoration: overline dashed green;
+    text-wrap: wrap;
+    letter-spacing:2px;a
+    word-spacing: 0px;
+    text-shadow:1px 1px 2px lightblue;
+}
+h1{
+    text-align: center;
+    text-shadow: 0px 0px 0px black;
+    text-shadow: 2px 2px 5px red;
+
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .udhaya p{
+            background-color: blue;
+        }
+
+        .udhai>p{
+            background-color: blue;
+        }
+
+        #udhaya1+p{
+            background-color: blue;
+        }
+
+        #udhaya2~p{
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Descendant Combinator</h1>
+    <div class="udhaya">
+        <p>Child</p>
+        <p>Child</p>
+        <ul type="disc">
+            <li>
+                <p>Descendant</p>
+            </li>
+        </ul>
+    </div>
+    <hr>
+
+    <h1>Child Combinator</h1>
+    <div class="udhai">
+        <p>Child</p>
+        <p>Child</p>
+        <ul type="disc">
+            <li>
+                <p>Descendant</p>
+            </li>
+        </ul>
+    </div>
+    <hr>
+
+    <h1 id="udhaya1">Adjacent Sibling Combinator</h1>
+    <p>First Sibling after heading</p>
+    <p>Second Sibling after heading</p>
+    <hr>
+
+    <h1 id="udhaya2">General Sibling Combinator</h1>
+    <p>First Sibling after heading</p>
+    <p>Second Sibling after heading</p>
+</body>
+
+</html>
+</body>
+</html>

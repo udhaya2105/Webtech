@@ -1,0 +1,27 @@
+#box{
+   height: 700px;
+   width:700;
+   border:solid;
+   background-color: bisque;
+   background-image: url("https://wallup.net/wp-content/uploads/2015/12/725-blue-night-forest-trees-water-cold-moon-mountain-lake-reflection-nature-landscape.jpg");
+   background-repeat:;
+   background-position-x:center ;
+   background-position-y:bottom ;
+   background-position:center bottom ;
+   background-position: right bottom;
+   background-position: center center;
+   background-position: top left;
+   background-size:auto;
+   background-size: contain;
+   background-size: cover;
+   background-size: 300px;
+   background-size: 50%;
+} 
+body{
+   background: url("https://i.pinimg.com/originals/b1/ea/e4/b1eae480c12a17503165907dbb3e5165.jpg")
+   no-repeat;
+   background-size: cover;
+   color: white;
+   background-attachment: scroll;
+   background-attachment: fixed;
+}
