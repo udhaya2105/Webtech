@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  html,body{
+    height: 80vh;
+    width: 70vw;
+    /* background-image:url("https://tse2.mm.bing.net/th/id/OIP.9AivKW1mAHZj9IoDhQcQ2gHaE8?r=0&pid=Api&h=220&P=0");
+    background-repeat: no-repeat;
+    background-size:cover; */
+
+    
+  }
+  
+  .MainNavBar{
+
+    height: 70px;
+    width: 100vw;
+    /* width: 700px; */
+    border: 2px solid black;
+    display: flex;
+    /* margin-top: 80px; */
+    /* margin-left:250px; */
+    justify-content: center;
+    align-items: center;
+  }
+  .leftNav{
+    height: 50px;
+    width: 50%;
+    padding-left: 60px;
+    /* background-color: cadetblue; */
+    /* display: flex;
+    align-items: center; */
+  }
+  .leftNav h1{
+    padding-left: 0px;
+  }
+  .rightNav{
+    height: 50px;
+    width: 50%;
+    padding-left: 90px;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+  }
+  rightNav{
+    height: 70px;
+    width: 50%;
+    border-bottom: 2px;
+    /* background-color: rgb(13, 97, 100); */
+    display: flex;
+    /* position: relative;
+    z-index: 10px;
+    background-color: white; */
+ }
+ .rightNav ul{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    column-gap: 20px;
+    
+ }
+ .rightNav ul a{
+    text-decoration: none;
+ }
+ .rightNav ul li{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+ }
+ 
+.rightNav ul button{
+  border-radius: 20px;
+  /* margin-right: 20px; */
+  border: none;
+  padding: 5px 35px;
+  flex-wrap: nowrap;
+ 
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  /* height: 40px;
+  width: 100px; */
+  
+ }
+.mainM{
+    
+  width: 100vw;
+  height: 80vh;
+  border-bottom:2px solid black;
+  display: flex;
+  background-color: aqua;
+ }
+.leftMain{
+  width: 50%;
+  height: 100%;
+  /* background-color: aqua; */
+  
+  /* background-color: purple; */
+}
+ 
+.leftMain p{
+    margin-left:23px;
+    margin-top: 200px;
+
+}
+.leftMain h1{
+font-size: 50px;
+margin-left:20px;
+color: black;
+/* margin-top: 200px; */
+}
+.leftMain button{
+ margin-left:20px;
+ border-radius: 10px;
+  border: none;
+  flex-wrap: nowrap;
+  padding:15px 40px;
+  margin-top: 20px;
+  background-color: black;
+  /* margin: 20px; */
+  color: white;
+}
+.rightMain{
+  width: 50%;
+  height: 100%;
+  /* display: flex; */
+  
+}
+.rightMain p{
+
+padding-left: 150px;
+margin-top: 300px;
+flex-wrap: nowrap;
+}
+.rightMain button{
+  border-radius: 6px;
+  border: none;
+  margin-right: 100px;
+  align-items: end;
+  flex-wrap: nowrap;
+  padding:5px 10px;
+  margin-top: 20px;
+  /* column-gap:9px; */
+  background-color: black;
+  color: white;
+}
+
+

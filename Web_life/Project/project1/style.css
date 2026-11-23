@@ -1,0 +1,19 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+.mainNav{
+    width: 100vw;
+    height: 70px;
+    background-color:indianred;
+    border-bottom: 2px solid;
+}
+.leftNav{
+
+    
+}

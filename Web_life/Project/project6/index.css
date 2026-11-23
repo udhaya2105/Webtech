@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+}
+
+.webpage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.Q2_u66p5KPEjcsUHKZwnTAHaEo?r=0&pid=Api&h=220&P=0");
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+
+.box {
+    width: 85%;
+    height: 82%;
+    position: relative;
+    border: 6px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.Q2_u66p5KPEjcsUHKZwnTAHaEo?r=0&pid=Api&h=220&P=0");
+    background-size: cover;
+    background-position: center;
+}
+ .web ul{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    column-gap: 20px;
+ }
+.web ul li{
+     color: black;
+    list-style: none;
+    text-decoration: none;
+}
+.web ul a{
+    text-decoration: none;
+}
+header {
+    height: 65px;
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.web {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+/* .bookyourhike{
+    background:black;
+    padding: 10px 14px;
+    border-radius: 4px;
+} */
+
+.main{
+    position: absolute;
+    left: 25px;
+    right: 25px;
+    bottom: 32px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.leftmain {
+    color: white;
+}
+
+.right{
+    font-size: 9px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 0.94;
+    letter-spacing: -2px;
+    margin-bottom: 22px;
+}
+
+.smalltext button{
+    margin-left:20px;
+ border-radius: 10px;
+  border: none;
+  flex-wrap: nowrap;
+  padding:15px 40px;
+  margin-top: 20px;
+  background-color: black;
+  /* margin: 20px; */
+  color: white;
+}
+
+
+.rightmain {
+    width: 300px;
+    color: white;
+    text-align: right;
+}
+
+.right{
+    font-size: 12px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
